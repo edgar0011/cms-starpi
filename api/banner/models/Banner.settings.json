@@ -1,0 +1,55 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "banner",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "size": {
+      "default": "",
+      "type": "string"
+    },
+    "type": {
+      "default": "",
+      "type": "string"
+    },
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "subTitle": {
+      "default": "",
+      "type": "string"
+    },
+    "buttonlabel": {
+      "default": "",
+      "type": "string"
+    },
+    "hint": {
+      "default": "",
+      "type": "string"
+    },
+    "claim": {
+      "default": "",
+      "type": "string"
+    },
+    "footer": {
+      "default": "",
+      "type": "string"
+    },
+    "content": {
+      "default": "",
+      "type": "text"
+    },
+    "mainImage": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

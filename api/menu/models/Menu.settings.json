@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "menu",
+  "info": {
+    "name": "menu",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "label": {
+      "default": "",
+      "type": "string"
+    },
+    "link": {
+      "default": "",
+      "type": "string"
+    },
+    "active": {
+      "default": false,
+      "type": "boolean"
+    },
+    "icon": {
+      "default": "",
+      "type": "string"
+    },
+    "pages": {
+      "collection": "page",
+      "via": "menu"
+    }
+  }
+}
