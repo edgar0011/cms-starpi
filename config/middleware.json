@@ -4,6 +4,7 @@
     "before": [
       "responseTime",
       "logger",
+      "cors",
       "responses",
       "gzip"
     ],
