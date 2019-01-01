@@ -1,0 +1,37 @@
+{
+  "connection": "default",
+  "collectionName": "subpage",
+  "info": {
+    "name": "subpage",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "description": {
+      "default": "",
+      "type": "string"
+    },
+    "subtitle": {
+      "default": "",
+      "type": "string"
+    },
+    "content": {
+      "default": "",
+      "type": "text"
+    },
+    "enabled": {
+      "default": false,
+      "type": "boolean"
+    },
+    "url": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
