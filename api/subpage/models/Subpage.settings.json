@@ -32,6 +32,10 @@
     "url": {
       "default": "",
       "type": "string"
+    },
+    "structuredContent": {
+      "default": "",
+      "type": "json"
     }
   }
 }
