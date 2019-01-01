@@ -36,6 +36,34 @@
     "structuredContent": {
       "default": "",
       "type": "json"
+    },
+    "appearance": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "box",
+        "popup",
+        "modal"
+      ]
+    },
+    "placement": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "header",
+        "body",
+        "footer",
+        "leftpanel",
+        "rightpanel"
+      ]
+    },
+    "componentWrapper": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "widget",
+        "none"
+      ]
     }
   }
 }
