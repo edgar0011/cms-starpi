@@ -64,6 +64,15 @@
         "widget",
         "none"
       ]
+    },
+    "visibility": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "session",
+        "persisted",
+        "repeated"
+      ]
     }
   }
 }
